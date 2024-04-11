@@ -4,32 +4,116 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Product landing page</title>
+    <link rel="stylesheet" href="style.css" rel="stylesheet" />
   </head>
   <body>
     <header id="header">
-      <img src="" id="header-img" alt="A logo image" />
-      <nav id="nav-bar">
-        <a href="#" class="nav-link"></a>
-        <a href="#" class="nav-link"></a>
-        <a href="#" class="nav-link"></a>
-      </nav>
-      <section id="video"></section>
-      <form
-        id="form"
-        action="https://www.freecodecamp.com/email-submit"
-        method="post"
-      >
-        <label for="email">Email:</label>
-        <input
-          placeholder="Email"
-          type="email"
-          id="email"
-          name="email"
-          required
+      <div>
+        <img
+          src="images/original trombones.png"
+          id="header-img"
+          alt="A logo image"
         />
-        <br />
-        <input type="submit" id="submit" value="Submit" />
-      </form>
+      </div>
+
+      <nav id="nav-bar">
+        <div>
+          <a href="#features" class="nav-link">Features</a>
+        </div>
+        <div>
+          <a href="#how-it-works" class="nav-link">How it Works</a>
+        </div>
+        <div>
+          <a href="#pricing" class="nav-link">Pricing</a>
+        </div>
+      </nav>
     </header>
+    <section class="first-section">
+      <div class="first-section-inner-container">
+        <div class="handcrafted">Handcrafted, home-made masterpieces</div>
+        <form
+          id="form"
+          action="https://www.freecodecamp.com/email-submit"
+          method="post"
+        >
+          <div>
+            <input
+              placeholder="Enter your email address"
+              type="email"
+              id="email"
+              name="email"
+              required
+            />
+          </div>
+
+          <div>
+            <input type="submit" id="submit" value="GET STARTED" />
+          </div>
+        </form>
+      </div>
+    </section>
+    <section class="second-section">
+      <div class="description-trombones">
+        <div><img src="images/icons8-fire-48.png" alt="image" /></div>
+        <div class="description-trombones-left">
+          <div class="upper">Premium Materials</div>
+          <div class="lower">
+            Our trombones use the shiniest brass which is sourced locally. This
+            will increase the longevity of your purchase.
+          </div>
+        </div>
+      </div>
+
+      <div class="description-trombones">
+        <div><img src="images/icons8-fire-48.png" alt="image" /></div>
+        <div class="description-trombones-left">
+          <div class="upper">Premium Materials</div>
+          <div class="lower">
+            Our trombones use the shiniest brass which is sourced locally. This
+            will increase the longevity of your purchase.
+          </div>
+        </div>
+      </div>
+
+      <div class="description-trombones">
+        <div><img src="images/icons8-fire-48.png" alt="image" /></div>
+        <div class="description-trombones-left">
+          <div class="upper">Premium Materials</div>
+          <div class="lower">
+            Our trombones use the shiniest brass which is sourced locally. This
+            will increase the longevity of your purchase.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="third-section">
+      <div class="trombone-details">
+        <div class="voice-trombone">TENOR TROMBONE</div>
+        <div class="cost-trombone">$600</div>
+        <div class="text-trombone">
+          Lorem ipsum. Lorem ipsum. Lorem ipsum dolor. Lorem ipsum.
+        </div>
+        <div class="select-trombone">SELECT</div>
+      </div>
+      <div class="trombone-details">
+        <div class="voice-trombone">TENOR TROMBONE</div>
+        <div class="cost-trombone">$600</div>
+        <div class="text-trombone">
+          Lorem ipsum. Lorem ipsum. Lorem ipsum dolor. Lorem ipsum.
+        </div>
+        <div class="select-trombone">SELECT</div>
+      </div>
+      <div class="trombone-details">
+        <div class="voice-trombone">TENOR TROMBONE</div>
+        <div class="cost-trombone">$600</div>
+        <div class="text-trombone">
+          Lorem ipsum. Lorem ipsum. Lorem ipsum dolor. Lorem ipsum.
+        </div>
+        <div class="select-trombone">SELECT</div>
+      </div>
+    </section>
+
+    <section id="video"></section>
   </body>
 </html>

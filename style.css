@@ -1,0 +1,120 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(209, 204, 204, 0.526);
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  justify-content: space-between;
+  height: 80px;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  z-index: 3;
+  /* background-color: rgba(209, 204, 204, 0.994); */
+  background-color: rgb(186, 179, 179);
+}
+header img {
+  height: 60px;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+  font-size: 20px;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
+.first-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 40vh;
+  margin-top: 40px;
+}
+
+.handcrafted {
+  font-size: 25px;
+}
+#email {
+  width: 67%;
+  height: 30px;
+  padding: 5px;
+  outline: none;
+  margin-left: 65px;
+  margin-top: 20px;
+}
+#submit {
+  width: 30%;
+  height: 30px;
+  padding: 5px;
+  outline: none;
+  margin-left: 140px;
+  margin-top: 15px;
+  background-color: rgba(204, 228, 66, 0.959);
+  border: none;
+  font-weight: bold;
+}
+
+.second-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.description-trombones {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 50px;
+  margin-bottom: 40px;
+}
+.upper {
+  font-weight: bold;
+  font-size: 25px;
+}
+.third-section {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+.trombone-details {
+  display: flex;
+  flex-direction: column;
+  border: black solid 1px;
+  height: 250px;
+  gap: 20px;
+}
+.voice-trombone {
+  display: flex;
+  background-color: rgba(100, 97, 97, 0.781);
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+}
+.cost-trombone {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  font-weight: bold;
+}
+.text-trombone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 35%;
+  margin-right: 35%;
+}
