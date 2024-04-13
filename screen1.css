@@ -26,6 +26,14 @@
     flex-direction: column;
     margin: 20px;
   }
+  .text-trombone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    line-height: 1.6;
+  }
   .forth-section {
     display: flex;
     flex-direction: column;
