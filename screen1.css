@@ -1,0 +1,37 @@
+@media only screen and (max-width: 412px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 25px;
+    padding-top: 15px;
+  }
+  #nav-bar {
+    font-size: 15px;
+  }
+  .handcrafted {
+    font-size: 23px;
+  }
+  #video {
+    margin: 20px;
+    height: 50vh;
+  }
+  .description-trombones {
+    display: flex;
+    gap: 10px;
+    margin: 20px;
+  }
+  .third-section {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+  }
+  .forth-section {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    background-color: rgba(185, 180, 180, 0.179);
+    margin: 20px;
+  }
+}
