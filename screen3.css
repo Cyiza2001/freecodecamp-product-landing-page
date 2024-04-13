@@ -4,6 +4,9 @@
     flex-direction: row;
     gap: 30px;
   }
+  .handcrafted {
+    font-size: 23px;
+  }
   .description-trombones {
     display: flex;
     gap: 25px;
